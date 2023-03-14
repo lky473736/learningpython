@@ -1,3 +1,6 @@
+# 임규연 (lky473736) 
+# AlphaMech_ 
+
 #rad = int (input ("입력 = ")) # 입력받기 (input 겉에 껍질은 자료형에 따라 다름)
 # int = interger
 
