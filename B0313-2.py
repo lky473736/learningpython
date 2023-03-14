@@ -1,3 +1,6 @@
+# 임규연 (lky473736) 
+# AlphaMech_ 
+
 from math import pi
 # math 라이브러리에서 Pi를 불러온다.
 # or import math
