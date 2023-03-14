@@ -1,3 +1,6 @@
+# 임규연 (lky473736) 
+# AlphaMech_ 
+
 import turtle
 t = turtle.Turtle()
 t.shape ("turtle")
