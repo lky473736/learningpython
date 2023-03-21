@@ -1,6 +1,6 @@
 # 문자입력
 str = input ("입력 : ")
-str = str + "ok" # compactnate
+str = str + "ok" # concatenate
 print (str)
 
 # 숫자입력
