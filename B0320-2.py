@@ -7,6 +7,6 @@ dist = int(input("거리 : ")) # dist라는 변수에 정수형의 값을 입력
 r_dist = dist / speed
 si = r_dist // 3600 # 60*60
 bun = (r_dist - (si*3600)) // 60
-cho = r_dist%60 # 나머지 (modular)
+cho = r_dist%60 # 나머지 (modulo)
 print (r_dist, "은", bun, "분", cho, "초")
 print (r_dist, "은", si, "시", bun, "분", cho, "초")
