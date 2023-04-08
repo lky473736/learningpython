@@ -14,10 +14,10 @@ orderlist = ["l", "r", "s", "c", "q"]
 while True : 
     in0 = turtle.textinput ("", "명령을 입력 : ") # turtle 창에 입력
     if in0 == orderlist[0] :
-        t.rt(90)
+        t.lt(90)
         t.fd(100)
     elif in0 == orderlist[1] :
-        t.lt(90)
+        t.rt(90)
         t.fd(100)
     elif in0 == orderlist[2] :
         t.fd(100)
