@@ -21,3 +21,13 @@ for i in range (1, 6) :
 #5
 for i in range (1, 6, 1) : # (start, end (n-1), step)
     print ("#5", i)
+    
+'''
+end 사용
+
+abc = [1, 2, 3, 4, 5] # 리스트 구조 : 문자건 숫자건 돌릴 수 있음
+
+for i in abc : 
+    print ("#1", i, end = "") => end 함수는 print의 자동 들여쓰기 기능을 해제한다
+    
+'''
