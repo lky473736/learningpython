@@ -35,3 +35,5 @@ if time >= 6 :
              
 else : 
     print ("안울어요")
+
+'''
