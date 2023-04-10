@@ -23,3 +23,15 @@ if time >= 6 and time < 9 and weather == True :
     
 else :
     print ("안울어요")
+    
+''' 중복 조건문
+
+위의 코드를 중복 조건으로 만들었을 때는 아래와 같다
+
+if time >= 6 :
+    if time < 9 :
+         if weather == True : 
+             print ("울어요")
+             
+else : 
+    print ("안울어요")
