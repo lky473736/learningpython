@@ -1,13 +1,15 @@
 # 등차수열 n에서의 합 공식
 
-firstn = 1
-n = int(input("n 입력 : "))
+sum = 0
+f_val = 0
 i = 1
 
-sum = (n*(n-1)) / 2
+n = int(input("number : "))
 
-while i == 1 :
-    print (n * i)
+while i <= n :
+    sum = sum + 1
     i = i + 1
-
-print ("최종 값 : ", sum)
+    f_val = f_val + sum
+    print (f_val)
+    
+print ("합은 = " + str(f_val))
