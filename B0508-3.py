@@ -12,7 +12,7 @@ pbook["광개토대왕"] = "010-1928-3746"
 
 print (pbook["광개토대왕"])
 
-for i in pbook :
+for i in sorted(pbook.keys()) :
     print (i, pbook[i])
     
 sear = input("검색 시스템 : key를 입력하세요. : ")
