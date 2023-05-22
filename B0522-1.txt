@@ -1,0 +1,25 @@
+apple
+car
+dog
+elephant
+flower
+guitar
+hat
+ice cream
+jacket
+kangaroo
+lion
+mountain
+notebook
+orange
+piano
+queen
+rainbow
+sun
+tree
+umbrella
+violin
+watermelon
+xylophone
+yoga
+zebra
