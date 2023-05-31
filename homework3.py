@@ -1,5 +1,4 @@
 # 객체 과제 (파이썬 - 오기욱 교수님)
-# 202334734 컴퓨터공학전공 임규연
 
 # 클래스 me를 구현하였으며, 함수는 아래와 같이 구현하였습니다.
 # get_old : 나이 먹기
@@ -17,7 +16,7 @@ class me :
         self.bloodvolume = bloodvolume
         
     def printall (self) :
-        print ("임규연의 정보")
+        print ("A의 정보")
         print ("나이 : ", self.old)
         print ("키 : ", self.height)
         print ("몸무게 : ", self.weight)
@@ -63,7 +62,7 @@ class me :
                 exit()
 
         while True :
-            print ("임규연의 현재 혈액량은 ", self.bloodvolume, "입니다.")  
+            print ("A의 현재 혈액량은 ", self.bloodvolume, "입니다.")  
             minus_blood = int(input("어느 용량만큼 수혈하실 건가요? : "))
             
             if minus_blood > self.bloodvolume :
@@ -73,7 +72,7 @@ class me :
                 break
         
         self.bloodvolume = self.bloodvolume - minus_blood
-        print ("헌혈을 완료하였습니다. 임규연의 현재 혈액량은 ", self.bloodvolume, "입니다.")
+        print ("헌혈을 완료하였습니다. A의 현재 혈액량은 ", self.bloodvolume, "입니다.")
                     
                 
 lgy = me (20, 178, 65, 'south korea', 'b', 3000) # lgy라는 객체에 값 입력
