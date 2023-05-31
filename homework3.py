@@ -1,6 +1,6 @@
 # 객체 과제 (파이썬 - 오기욱 교수님)
 
-# 클래스 me를 구현하였으며, 함수는 아래와 같이 구현하였습니다.
+# 클래스 me를 구현하였으며, 함수는 아래와 같이 구현함.
 # get_old : 나이 먹기
 # get_height : 키 커지기
 # diet : 다이어트
@@ -75,29 +75,29 @@ class me :
         print ("헌혈을 완료하였습니다. A의 현재 혈액량은 ", self.bloodvolume, "입니다.")
                     
                 
-a = me (20, 178, 65, 'south korea', 'b', 3000) # lgy라는 객체에 값 입력
+k = me (20, 178, 65, 'south korea', 'b', 3000) # k라는 객체에 값 입력
 
 while True : 
     print ()
-    a.printall()
+    k.printall()
     print ()
     print ("1 : 나이 먹기 / 2 : 키 커지기 / 3 : 다이어트 / 4 : 헌혈 시스템 / 5 : 종료")
     mode = int(input("사용하실 함수의 번호를 입력하십시요. : "))
     
     match mode : 
         case 1 :
-            a.get_old()
+            k.get_old()
         
         case 2 :
             a = int(input("키를 어느 정도로 키울까요? : "))
-            a.get_height(a)
+            k.get_height(a)
             
         case 3 :
             b = int(input("다이어트를 어느 정도로 할까요? : "))
-            a.diet(b)
+            k.diet(b)
             
         case 4 : 
-            a.blooddonation()
+            k.blooddonation()
         
         case 5 :
             print ("프로그램을 종료합니다.")
