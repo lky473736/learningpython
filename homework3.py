@@ -26,18 +26,18 @@ class me :
         
     def get_old (self) :
         self.old = self.old + 1
-        print ("나이를 한살 더 먹었습니다. 임규연의 나이는 : ", self.old)
+        print ("나이를 한살 더 먹었습니다. A의 나이는 : ", self.old)
         
     def get_height (self, plus_height) :
         self.height = self.height + plus_height
-        print ("키가 커졌습니다. 임규연의 지금 키는 : ", self.height)
+        print ("키가 커졌습니다. A의 지금 키는 : ", self.height)
         
     def diet (self, minus_weight) :
         self.weight = self.weight - minus_weight
-        print ("다이어트에 성공했습니다. 임규연의 지금 체중은 : ", self.weight)
+        print ("다이어트에 성공했습니다. A의 지금 체중은 : ", self.weight)
         
     def blooddonation (self) :
-        print ("헌혈 시스템에 접속하셨습니다. 임규연의 혈액형은 ", self.blood, "입니다.")
+        print ("헌혈 시스템에 접속하셨습니다. A의 혈액형은 ", self.blood, "입니다.")
         bloodtype = input ("혈액을 이식시킬 분의 혈액형을 입력해주세요. : ")
         
         match bloodtype : # python 3.10 버젼에 생긴 match-case를 이용해 조건문을 표현
@@ -75,29 +75,29 @@ class me :
         print ("헌혈을 완료하였습니다. A의 현재 혈액량은 ", self.bloodvolume, "입니다.")
                     
                 
-lgy = me (20, 178, 65, 'south korea', 'b', 3000) # lgy라는 객체에 값 입력
+a = me (20, 178, 65, 'south korea', 'b', 3000) # lgy라는 객체에 값 입력
 
 while True : 
     print ()
-    lgy.printall()
+    a.printall()
     print ()
     print ("1 : 나이 먹기 / 2 : 키 커지기 / 3 : 다이어트 / 4 : 헌혈 시스템 / 5 : 종료")
     mode = int(input("사용하실 함수의 번호를 입력하십시요. : "))
     
     match mode : 
         case 1 :
-            lgy.get_old()
+            a.get_old()
         
         case 2 :
             a = int(input("키를 어느 정도로 키울까요? : "))
-            lgy.get_height(a)
+            a.get_height(a)
             
         case 3 :
             b = int(input("다이어트를 어느 정도로 할까요? : "))
-            lgy.diet(b)
+            a.diet(b)
             
         case 4 : 
-            lgy.blooddonation()
+            a.blooddonation()
         
         case 5 :
             print ("프로그램을 종료합니다.")
